@@ -1,0 +1,39 @@
+//Get All User
+GET http://localhost:5000/voucher_parkir/
+
+###
+//Get User By ID
+GET http://localhost:5000/voucher_parkir/15
+
+
+###
+//Create User
+POST  http://localhost:5000/voucher_parkir
+Content-Type: application/json
+
+{
+                "nama_pemilik": "Ikhsan 2",
+                "jenis_kendaraan": "mobil",
+                "merk": "honde",
+                "plat": "1234",
+                "paket_parkir": "10.000",
+                "tanggal_expired": "2022-11-01T07:16:38.000Z"
+}
+
+###
+//Update User
+PATCH  http://localhost:5000/voucher_parkir/15
+Content-Type: application/json
+
+{
+                "nama_pemilik": "Ikhsan Update",
+                "jenis_kendaraan": "mobil",
+                "merk": "honde",
+                "plat": "1233",
+                "paket_parkir": "20.000",
+                "tanggal_expired": "2022-10-01T07:16:38.000Z"
+}
+
+###
+//Delete User
+DELETE http://localhost:5000/voucher_parkir/15
