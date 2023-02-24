@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrsan175/crud-node-prisma-reactjs-backend.git"
+    "url": "git+https://github.com/SULAEMAN2001/backend.git"
   },
   "author": "devnolife",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mrsan175/crud-node-prisma-reactjs-backend/issues"
+    "url": "https://github.com/SULAEMAN2001/backend/issues"
   },
-  "homepage": "https://github.com/mrsan175/crud-node-prisma-reactjs-backend#readme",
+  "homepage": "https://github.com/SULAEMAN2001/backend.git#readme",
   "dependencies": {
     "@prisma/client": "^4.9.0",
     "cors": "^2.8.5",
